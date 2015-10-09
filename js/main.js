@@ -5,7 +5,7 @@ $(document).ready(function() {
 		RepositionNav();
 	});
 
-	$('#home').parallax("50%", 0, 0.1, true);
+	//$('#home').parallax("50%", 0, 0.1, true);
 	
 	var deck = new $.scrolldeck({
 		slides: '.slide',
