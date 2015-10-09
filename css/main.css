@@ -19,14 +19,14 @@ body {
 
 h1 { 
     padding:0 20px;
-    color:#FFDD77;
+    color:#CCAA66;
 }
 h2 {
     font-family:"FnG1", Verdana, sans-serif;
     font-size: 80px;
     font-size: 8rem;
     margin: 0;
-    color:#FFDD77;
+    color:#CCAA66;
 }
 
 h3 {
@@ -105,7 +105,9 @@ img{
     background-size: cover; 
 }
 
-#home h1, #home h1 img { width: 100%; }
+#home h1 img { width: 100%; }
+#home h2 { color: white; }
+#home h3 { color:#CCAA66; }
 
 
 
