@@ -95,7 +95,7 @@ img{
     background-size: cover; 
 }
 
-#home h1 img { width: 100%; }
+#home h1, #home h1 img { width: 100%; }
 
 
 
