@@ -1,12 +1,12 @@
 html, body {
     height: 100%; 
-    margin: 0px; 
-    padding: 0px;
+    margin: 0; 
+    padding: 0;
 }
 body {
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
     color: white;
     background-color: black;
@@ -45,12 +45,12 @@ h3 {
 
 p {
     width: 80%;
-    margin: 20px auto;
-    margin: 2rem auto;
+    margin: 25px auto;
+    margin: 2.5rem auto;
     line-height: 1.2;
 }
 
-p.small { 
+.small { 
     font-size: 15px;
     font-size: 1.5rem;
 }
@@ -80,13 +80,15 @@ img{
 
 .story {
     margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    padding: 40px 0;
+    padding: 4rem 0;
 }
 
 .semi {
     background-color: #364048;
     background-color: rgba(54, 64, 72, 0.5);
-    padding: 40px 0;
-    padding: 4rem 0;
 }
 
 
@@ -119,6 +121,13 @@ img{
 #home h2 { color: white; }
 #home h3 { color: #E9C26F; }
 
+#gracelogo {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+}
 
 
 /* Navigation */
