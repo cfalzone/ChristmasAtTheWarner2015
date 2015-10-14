@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    <script src="js/respimage.min.js"></script>
   </head>
   <body class="loading skrollr-decks-init" data-skrollr-decks-history="true">
     <!--[if lt IE 7]>
@@ -33,7 +34,13 @@
 
     <div id="home" class="slide">
       <div class="story">
-        <h1><img src="img/logo.png" alt="Christmas at the Warner"></h1>
+        <h1>
+          <picture>
+            <source media="(max-width: 720px)" srcset="img/logo-small.png">
+            <source srcset="img/logo.png">
+            <img src="img/logo.png" alt="Christmas at the Warner">
+          </picture>
+          </h1>
         <h2><span class="rwd-line">December 24:</span> <span class="rwd-line">3:30 and 6:00 PM</span></h2>
         <h3><span class="rwd-line">The Longing:</span> <span class="rwd-line">what if everything you're waiting for</span> <span class="rwd-line">never came?</span></h3>
       </div>
@@ -120,7 +127,6 @@
       </div>
     </div>
 
-    <script src="js/respimage.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
