@@ -65,8 +65,17 @@ a, a:visited {
     text-shadow: none;
 }
 
-img{
+img {
     border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.leftlist {
+    display: inline-block; 
+    text-align: left;
 }
 
 .slide {
