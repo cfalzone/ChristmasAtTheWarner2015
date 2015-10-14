@@ -172,7 +172,7 @@ ul {
     list-style: none;
     position: fixed;
     right: 20px;
-    z-index: 999;
+    z-index: 9999;
 }
 
 #nav li {
