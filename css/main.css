@@ -78,6 +78,25 @@ ul {
     text-align: left;
 }
 
+.sociallink {
+    display: inline-block; 
+    padding: 0 20px;
+    color: #E9C26F;
+    text-transform: uppercase;
+}
+
+.sociallink:hover, .sociallink a:hover {
+    text-shadow: 2px 2px 3px rgba(41, 48, 53, 1);
+}
+
+.sociallink a, .sociallink a:visited {
+    color: #E9C26F;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: none;
+    text-decoration: none;
+}
+
 .slide {
     margin: 0 auto;
     width: 100%;
