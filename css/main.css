@@ -103,6 +103,12 @@ ul {
     background-color: rgba(54, 64, 72, 0.5);
 }
 
+/* Responsive Line Breaks */
+.rwd-line { display: block; }   
+@media screen and (min-width: 768px) {
+    .rwd-line { display: inline; }
+}
+
 
 
 /* Slides */
