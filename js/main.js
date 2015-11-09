@@ -17,9 +17,9 @@ $(document).ready(function() {
 
 	scrollorama.animate('#home h3', {
 		delay: 5,
-		duration: 200,
+		duration: 400,
 		property: 'opacity',
-		start: 0
+		start: 0.1
 	}).animate('#tickets h3', {
 		delay: 400,
 		duration: 600,
