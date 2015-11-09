@@ -15,12 +15,7 @@ $(document).ready(function() {
 
 	var scrollorama = $.scrollorama({ blocks: '.slide' });
 
-	scrollorama.animate('#home h2',{
-		delay: 0,
-		duration: 100,
-		property: 'opacity',
-		start: 0
-	}).animate('#home h3', {
+	scrollorama.animate('#home h3', {
 		delay: 5,
 		duration: 200,
 		property: 'opacity',
