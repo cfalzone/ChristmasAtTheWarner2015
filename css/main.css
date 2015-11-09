@@ -151,6 +151,23 @@ ul {
     margin: 20px;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 80% !important;
+}
+
 /* Responsive Line Breaks */
 .rwd-line { display: block; }   
 @media screen and (min-width: 768px) {
