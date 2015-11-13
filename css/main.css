@@ -80,7 +80,7 @@ ul {
 
 .sociallink {
     display: inline-block; 
-    padding: 0 20px;
+    padding: 20px;
     color: #E9C26F;
     text-transform: uppercase;
 }
@@ -95,6 +95,11 @@ ul {
     font-style: normal;
     text-shadow: none;
     text-decoration: none;
+}
+
+.sponsorlink {
+    display: inline-block; 
+    padding: 20px;
 }
 
 .slide {
