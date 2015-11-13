@@ -170,14 +170,6 @@ ul {
     .rwd-line { display: inline; }
 }
 
-/* Clear Fix */
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 /* Slides */
 
 #home { 
