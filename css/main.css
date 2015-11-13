@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-    font-family: "FnG2", Verdana, serif;
+    font-family: "FnG2", Verdana, sans-serif;
     font-size: 40px;
     font-size: 4rem;
     margin: 0;
@@ -124,6 +124,7 @@ ul {
 
 .button, .button:visited {
     display: inline-block;
+    margin: 5px;
     padding: 30px 0;
     background-color: #364048;
     color: white;
