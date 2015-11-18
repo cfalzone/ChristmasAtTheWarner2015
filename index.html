@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-    <script src="js/respimage.min.js"></script>
   </head>
   <body class="loading skrollr-decks-init" data-skrollr-decks-history="true">
     <!--[if lt IE 7]>
@@ -30,18 +29,17 @@
       <li><a href="#sponsors" title="Sponsors"></a></li>
     </ul>
 
-    <div id="gracelogo"><a href="http://whoisgrace.com/" title="Who is Grace?"><img src="img/gracelogo.png" alt="Grace Church Logo" /></a></div>
-
     <div id="home" class="slide">
       <div class="story">
         <h1>
-          <picture>
-            <source media="(max-width: 400px)" srcset="img/logo-small.png">
-            <source media="(max-width: 720px)" srcset="img/logo-med.png">
-            <source srcset="img/logo.png">
-            <img src="img/logo.png" alt="Christmas at the Warner">
-          </picture>
-          </h1>
+          <span class="x-mas">Christmas</span> 
+          <span class="at-the">
+            <span class="at">at</span>
+            <span class="the">the</span>
+          </span>
+          <span class="warner">Warner</span>
+        </h1>
+
         <h2><span class="rwd-line">December 24:</span> <span class="rwd-line">3:30 and 6:00 PM</span></h2>
         <!--
         <h3><span class="rwd-line">The Longing:</span> <span class="rwd-line">what if everything you're waiting for</span> <span class="rwd-line">never came?</span></h3>
@@ -130,20 +128,20 @@
       <div class="story semi">
         <h2>Sponsors</h2>
         <ul class="leftlist">
-          <li>&bull; <a target="_blank" href="http://www.whoisgrace.com/">Grace Church</a></li>
           <li>&bull; <a target="_blank" href="http://www.marshamarsh.com/">Marsha Marsh Real Estate</a></li>
           <li>&bull; <a target="_blank" href="http://www.pnc.com/">PNC Bank</a></li>
           <li>&bull; <a target="_blank" href="http://www.bonnellscollision.com/">Bonnell’s Collision</a></li>
         </ul>
       </div>
+      <div id="gracelogo">
+        <a href="http://whoisgrace.com/" title="Grace Church"><img src="img/gracelogo.png" alt="Grace Church" /></a>
+      </div>
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.scrollorama.js"></script>
-    <script src="js/jquery.scrolldeck.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
