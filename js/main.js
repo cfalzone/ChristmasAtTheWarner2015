@@ -15,6 +15,15 @@ $(document).ready(function() {
 		$('#nav a').removeClass('active');
 		$(this).addClass('active');
 	});
+
+	$('.sold-out').hover(function() {
+		var $this = $(this); // caching $(this)
+        $this.data('initialText', $this.html());
+		$this.html("SOLD<span>OUT</span>");
+	}, function() {
+		var $this = $(this); // caching $(this)
+        $this.html($this.data('initialText'));
+	});
 });
 
 function RepositionNav() {

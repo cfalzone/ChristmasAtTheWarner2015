@@ -180,6 +180,10 @@ span.warner {
     background-color: rgba(54, 64, 72, 0.75);
 }
 
+.sold-out {
+    background-color: #999 !important;
+}
+
 .button, .button:visited {
     display: inline-block;
     box-sizing: border-box;
